@@ -1,9 +1,9 @@
 import time,math
-
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(pinList, GPIO.OUT)
+GPIO.setup(32,GPIO.OUT)
 PolarityPins = [29,31]
-#import RPi.GPIO as GPIO
-#GPIO.setmode(GPIO.BOARD)
-#GPIO.setup(pinList, GPIO.OUT)
 TimeDelayIncrease = 999 #Increase to slower the delay
 TimeDelayDecrease = 999 #Increase to slower the delay
 TimeRiding = 5;
