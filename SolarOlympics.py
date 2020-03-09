@@ -43,8 +43,6 @@ for x in range(0,1000):
   #p.stop()
   print("Increase Time Delay is",TimeDelayIncrease)
   print("Decrease Time Delay is",TimeDelayDecrease)
-  print("Time Riding is",TimeRiding)
+  print("Time Riding is",TimeRiding,"seconds")
   input("Press enter to continue")
   GPIO.cleanup()
-
-#GPIO.cleanup()
